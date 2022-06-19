@@ -1,0 +1,124 @@
+body {
+	background-color: #b0b6b6;;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: #5a5a5a;
+  }
+  
+
+.logo{
+	border-radius: 100%;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.menu2 ul li a{
+	text-decoration: none;
+	color: white; 
+	display: block;
+}
+
+.menu2{
+	background: #00a09f;
+}
+
+.menu2 ul li a:hover{
+	background: white;
+}
+
+.fondo {
+	background-image:url('/image/cons.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	margin-bottom: 20px;
+	height: auto;
+	width: auto;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+}
+.boton-contacto{
+	background-color: #00a09f;
+	color: white;
+	/* texto sombreado */
+	text-shadow: 2px 2px 2px #828282;
+}
+.sombra{
+	text-shadow: 2px 2px 2px #828282;
+}
+.titulo{
+	text-shadow: 2px 2px 2px #828282;
+}
+/* iconos */
+.iconos a{
+	/* cambiar tamaño */
+	font-size: 15px;
+	/* cambiar color */
+	color:#00a09f;
+}
+.iconos{
+	background-color: white;
+}
+
+.fondoitem{
+	background-color: #00a09f;
+	text-align: center;
+}
+
+.icn{
+	margin-left: 10px;
+}
+
+.colortexto{
+	color: #5a5a5a;
+}
+.btn-wsp{
+    position:fixed;
+    width:50px;
+    height:50px;
+    line-height: 46px;
+    bottom:35px;
+    right:15px;
+    background:#00a09f;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+	text-decoration: none;
+    background: white;
+	color: #00a09f;
+}
+
+.tituloFlotante{
+	position:fixed;
+    width:130px;
+    height:50px;
+    line-height: 46px;
+    top:86px;
+    left:0px;
+    background:#646464;
+	/* background-color: transparent #00a09f; */
+	background-color: rgba (255, 0, 0, 0.4);
+	opacity: 0.5;
+
+    color:#FFF;
+    /* border-radius:50px; */
+	border-end-end-radius: 25px;
+	border-top-right-radius: 25px;
+	
+    text-align:center;
+    font-size:12px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
